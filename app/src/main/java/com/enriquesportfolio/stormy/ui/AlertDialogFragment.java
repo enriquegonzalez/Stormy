@@ -1,10 +1,12 @@
-package com.enriquesportfolio.stormy;
+package com.enriquesportfolio.stormy.ui;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;
 import android.content.Context;
 import android.os.Bundle;
+
+import com.enriquesportfolio.stormy.R;
 
 /**
  * Created by Enrique on 4/19/15.
