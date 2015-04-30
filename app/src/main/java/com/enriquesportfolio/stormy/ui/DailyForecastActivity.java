@@ -29,6 +29,8 @@ public class DailyForecastActivity extends ListActivity {
         mDays = Arrays.copyOf(parcelables, parcelables.length, Day[].class);
 
         DayAdapter adapter = new DayAdapter(this, mDays);
+
+        setListAdapter(adapter);
     }
 
 }
