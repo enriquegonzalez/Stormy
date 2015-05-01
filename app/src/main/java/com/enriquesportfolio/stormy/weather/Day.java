@@ -34,6 +34,7 @@ public class Day implements Parcelable {
     }
 
     public int getTemperatureMax() {
+
         return (int) Math.round(mTemperatureMax);
     }
 
@@ -92,12 +93,12 @@ public class Day implements Parcelable {
         mTimezone = in.readString();
     }
 
-    public Day () { }
+    public Day() { }
 
     public static final Creator<Day> CREATOR = new Creator<Day>() {
         @Override
         public Day createFromParcel(Parcel source) {
-            return new Day (source);
+            return new Day(source);
         }
 
         @Override
